@@ -1,0 +1,26 @@
+.rounded-image img {
+    border-radius: 400px;
+    display: block;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: chocolate;
+}
+
+h2{
+    text-align: center;
+    color: cadetblue;
+}
+
+.row{
+    display: 1px;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5em;
+}
+
+
