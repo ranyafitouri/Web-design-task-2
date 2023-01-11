@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="task-2-website.css">
+</head>
+<body>
+    <header>
+        <h1>CONTACT</h1>
+        <h2>samdoesarts</h2>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <nav>
+                  
+                    <div class="image rounded-image">
+                        <div style = "position:absolute; left:190px; top:250px;">
+                        <a href="task-2-homepage.html"><img src="pics/hp pic3.png" alt="kara pic"/></a>
+                    </div>
+                </div>
+                    
+                    <ul>
+                        <div style = "position:absolute; left:250px; top:430px;">
+                        <li> 
+                            <a href="about.html" class="navbar-brand">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="articles.html" class="navbar-brand">
+                                Articles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="all-articles.html" class="navbar-brand">
+                                All Articles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="navbar-brand">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="contact-me"></label>
+                    <h1>Contact Me</h1>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-7">
+                    <!-- contact form-->
+                    <h3>Send your request</h3>
+
+                    <form action="mailto:samdoes@.com" method="post" enctype="text/plain" class="contact-form">
+                        <div class="container">
+                            <div class="row">
+                                <!-- First Name Input-->
+                                <div class="col-4">
+                                    <label for="first-name-input">First Name</label>
+                                    <input type="text" name="first-name" id="first-name-input" placeholder="Type Here" required>
+                                </div>
+                                <!-- Last Name Input-->
+                                <div class="col-4">
+                                    <label for="last-name-input">Last Name</label>
+                                    <input type="text" name="last-name" id="last-name-input" placeholder="Type Here" required>
+                                </div>
+                                <!-- Email address input-->
+                                <div class="col-4">
+                                    <label for="last-name-input">Email Address</label>
+                                    <input type="text" name="email" id="email-input" placeholder="Type Here" required>
+                                </div>
+                                <!-- Topic dropdown-->
+                                 <div class="col-4">
+                                    <label for="topic-dropdown">Topic</label>
+                                    <select name="Topic" id="Topic-dropdown" required>
+                                        <option value="" disabled selected>Please choose a topic </option>
+                                        <option value="no-bacon">Feedback</option>
+                                        <option value="salad-good">Getting in touch</option>
+                                    </select>
+                                </div>
+                                <!-- subject input-->
+                                <div class="col-4">
+                                    <label for="subject-input">Subject</label>
+                                    <input type="text" name="subject" id="subject-input" placeholder="Type Here" required>
+                                </div>
+                                <!-- message input-->
+                                <div class="col-4">
+                                    <label for="message-input"></label>
+                                    <textarea name="message" id="message-input" cols="30" rows="10" placeholder="Please type in your message" required></textarea>
+                                </div>
+                                <!--buttons-->
+                                <div class="col-4">
+                                    <button type="submit" class="button">Send Message</button>
+                                    <button type="reset" class="button clear">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="col-1">
+                    <!--Empty column for spacing-->
+                </div>
+                
+        
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+        </body>
+        </html>
+            

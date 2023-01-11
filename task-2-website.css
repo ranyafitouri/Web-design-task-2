@@ -1,7 +1,12 @@
 .rounded-image img {
     border-radius: 400px;
     display: block;
-    width: 100%;
+    width: 15%;
+}
+
+.image4fish{
+   
+    width: 10%;
 }
 
 h1{
@@ -23,4 +28,44 @@ h2{
     padding: 5em;
 }
 
+.articleMargin{
+    margin-top: 200px !important;
+}
 
+
+.allarticleMargin{
+    margin-top: 200px !important;
+}
+
+h3{
+    text-align: center;
+    color: cadetblue;
+}
+
+label{
+    text-align: center;
+    color: chocolate;
+}
+
+.contact-me{
+    text-align: center;
+    color: chocolate;
+}
+
+h5{
+    color: cadetblue;
+    
+}
+
+h4{
+    
+    color: chocolate;
+}
+
+.aboutleMargin{
+    margin-top: 200px !important;
+}
+
+.image{
+    padding-left: 2em;
+}
