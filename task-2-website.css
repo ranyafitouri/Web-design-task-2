@@ -69,3 +69,13 @@ h4{
 .image{
     padding-left: 2em;
 }
+
+.navbar-brand{
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
