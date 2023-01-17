@@ -1,12 +1,11 @@
 .rounded-image img {
     border-radius: 400px;
     display: block;
-    width: 15%;
+    width: 100%;
 }
 
-.image4fish{
-   
-    width: 10%;
+.image4fish img{
+    width: 100%;
 }
 
 h1{
@@ -66,8 +65,8 @@ h4{
     margin-top: 200px !important;
 }
 
-.image{
-    padding-left: 2em;
+.image img {
+    width: 100%;
 }
 
 .navbar-brand{
@@ -79,10 +78,6 @@ body {
     line-height: 1.5;
     margin: 0;
 }
-
-h5{
-    margin-right: 6cm;
-
+.text-center {
+    text-align: center;
 }
-
-
