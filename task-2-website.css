@@ -49,6 +49,7 @@ label{
 .contact-me{
     text-align: center;
     color: chocolate;
+    padding-left: 5cm;
 }
 
 h5{
@@ -81,3 +82,14 @@ body {
 .text-center {
     text-align: center;
 }
+
+.contact-form{
+    padding-left: 5cm;
+    
+}
+
+h5{
+    text-align: center;
+    color: chocolate;
+}
+
